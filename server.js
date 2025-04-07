@@ -22,5 +22,5 @@ app.post('/sumar-matrices', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Servidor corriendo en http://localhost:${port}`);
+    console.log(`Servidor corriendo correctamente en: http://localhost:${port}`);
 });
